@@ -32,29 +32,6 @@ const Home = () => {
     return () => ctx.revert();
   }, []);
 
-  const features = [
-    {
-      icon: '🚀',
-      title: 'Lightning Fast',
-      description: 'Optimized for speed and performance'
-    },
-    {
-      icon: '📱',
-      title: 'Mobile First',
-      description: 'Responsive design for all devices'
-    },
-    {
-      icon: '🎨',
-      title: 'Modern Design',
-      description: 'Beautiful and intuitive interfaces'
-    },
-    {
-      icon: '🔒',
-      title: 'Secure',
-      description: 'Built with security best practices'
-    }
-  ];
-
   return (
     <div ref={heroRef} className="relative min-h-screen overflow-hidden">
       {/* Cinematic Background */}
@@ -95,21 +72,21 @@ const Home = () => {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="max-w-5xl mx-auto"
+            className="max-w-4xl mx-auto"
           >
             {/* Main Heading */}
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 1 }}
-              className="text-6xl md:text-8xl font-bold text-white mb-8 leading-tight"
+              className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight"
             >
-              Iman 
+              Iman
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400">
-                {' '}Gadzhi
+                {' '} gadzhi
               </span>
               <br />
-              Digital Experiences
+              <span className="text-4xl md:text-6xl">Digital Experiences</span>
             </motion.h1>
 
             {/* Subtitle */}
@@ -117,10 +94,9 @@ const Home = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 1 }}
-              className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed"
+              className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed"
             >
-              We craft stunning websites and applications that captivate audiences and drive results. 
-              From concept to deployment, we bring your vision to life with cutting-edge technology.
+              We craft stunning websites that captivate audiences and drive results.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -150,27 +126,25 @@ const Home = () => {
               </Link>
             </motion.div>
 
-            {/* Features Grid */}
+            {/* Decorative Elements */}
             <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.9, duration: 1 }}
-              className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-4xl mx-auto"
+              className="flex justify-center space-x-8 mb-8"
             >
-              {features.map((feature, index) => (
-                <motion.div
-                  key={feature.title}
-                  initial={{ opacity: 0, y: 30 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 1.1 + index * 0.1, duration: 0.8 }}
-                  whileHover={{ y: -10 }}
-                  className="p-6 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl hover:bg-white/10 transition-all duration-300"
-                >
-                  <div className="text-4xl mb-4">{feature.icon}</div>
-                  <h3 className="text-xl font-semibold text-white mb-2">{feature.title}</h3>
-                  <p className="text-gray-300 text-sm">{feature.description}</p>
-                </motion.div>
-              ))}
+              <div className="flex items-center space-x-2 text-white/60">
+                <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <span className="text-sm">React</span>
+              </div>
+              <div className="flex items-center space-x-2 text-white/60">
+                <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
+                <span className="text-sm">Node.js</span>
+              </div>
+              <div className="flex items-center space-x-2 text-white/60">
+                <div className="w-2 h-2 bg-pink-400 rounded-full"></div>
+                <span className="text-sm">AI/ML</span>
+              </div>
             </motion.div>
           </motion.div>
         </div>
