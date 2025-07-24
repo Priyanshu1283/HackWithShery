@@ -5,36 +5,36 @@ const aboutCards = [
   {
     key: 'about',
     title: 'About',
-    img1: '/public/iman-back.webp',
-    img2: '/public/child_2.webp',
+    img1: '/iman-back.webp',
+    img2: '/child_2.webp',
     content: `HackWithShery is a digital agency founded to bridge the gap between technology and user experience. Our mission is to empower businesses with innovative digital solutions.`
   },
   {
     key: 'early-life',
     title: 'Early Life',
-    img1: '/public/child_1.webp',
-    img2: '/public/Nepal_0003_Generative-Fill.webp',
+    img1: '/child_1.webp',
+    img2: '/Nepal_0003_Generative-Fill.webp',
     content: `Iman was born in Dagestan, Russia, and moved to London at age 4. Raised in a modest environment, he faced challenges related to family issues, financial hardship, and limited access to traditional education.`
   },
   {
     key: 'school-nepal',
     title: 'School in Nepal',
-    img1: '/public/Nepal_0002_Generative-Fill-6.webp',
-    img2: '/public/web_0018_Generative-Fill-9-p-2000.webp',
+    img1: '/Nepal_0002_Generative-Fill-6.webp',
+    img2: '/web_0018_Generative-Fill-9-p-2000.webp',
     content: `Iman attended school in Nepal, where he developed a passion for learning and self-improvement, overcoming obstacles and embracing new cultures.`
   },
   {
     key: 'company-marathon',
     title: 'Company Marathon',
-    img1: '/public/web_0016_Generative-Fill-11-p-2000.webp',
-    img2: '/public/web_0020_Generative-Fill-5-p-2000.webp',
+    img1: '/web_0016_Generative-Fill-11-p-2000.webp',
+    img2: '/web_0020_Generative-Fill-5-p-2000.webp',
     content: `Iman founded his first company, Marathon, which quickly gained recognition for its innovative approach and commitment to excellence.`
   },
   {
     key: 'meals-sa',
     title: 'Meals in South Africa',
-    img1: '/public/web_0022_Generative-Fill-p-2000.webp',
-    img2: '/public/apple-touch-icon.png',
+    img1: '/web_0022_Generative-Fill-p-2000.webp',
+    img2: '/apple-touch-icon.png',
     content: `During his travels in South Africa, Iman experienced diverse cuisines and cultures, which inspired him to bring global perspectives to his work.`
   },
 ];
