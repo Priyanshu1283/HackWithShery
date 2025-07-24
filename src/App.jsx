@@ -6,7 +6,6 @@ import AnimatedCursor from './components/AnimatedCursor';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
-import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Companies from './pages/Companies';
 import Login from './pages/Login';
@@ -35,7 +34,6 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/services" element={<Services />} />
-                <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/companies" element={<Companies />} />
                 <Route path="/login" element={<Login />} />

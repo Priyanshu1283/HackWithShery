@@ -20,7 +20,6 @@ const Navbar = () => {
     { name: 'About', href: '/about' },
     { name: 'Companies', href: '/companies' },
     { name: 'Services', href: '/services' },
-    { name: 'Portfolio', href: '/portfolio' },
     { name: 'Contact', href: '/contact' },
   ];
 
@@ -44,7 +43,7 @@ const Navbar = () => {
               whileHover={{ scale: 1.05 }}
               className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400"
             >
-              HackWithShery
+              ImanGadzhi
             </motion.div>
           </Link>
 

@@ -98,32 +98,6 @@ const Home = () => {
             >
               We craft stunning websites that captivate audiences and drive results.
             </motion.p>
-
-            {/* CTA Buttons */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.7, duration: 1 }}
-              className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16"
-            >
-              <Link to="/companies">
-                <motion.button
-                  whileHover={{ scale: 1.05, y: -2 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg text-lg shadow-lg hover:shadow-xl transition-all duration-300"
-                >
-                  Explore Companies
-                </motion.button>
-              </Link>
-              <Link to="/portfolio">
-                <motion.button
-                  whileHover={{ scale: 1.05, y: -2 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="px-8 py-4 bg-white/10 backdrop-blur-md border border-white/20 text-white font-semibold rounded-lg text-lg hover:bg-white/20 transition-all duration-300"
-                >
-                  View Portfolio
-                </motion.button>
-              </Link>
             </motion.div>
 
             {/* Decorative Elements */}
@@ -133,19 +107,6 @@ const Home = () => {
               transition={{ delay: 0.9, duration: 1 }}
               className="flex justify-center space-x-8 mb-8"
             >
-              <div className="flex items-center space-x-2 text-white/60">
-                <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <span className="text-sm">React</span>
-              </div>
-              <div className="flex items-center space-x-2 text-white/60">
-                <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <span className="text-sm">Node.js</span>
-              </div>
-              <div className="flex items-center space-x-2 text-white/60">
-                <div className="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <span className="text-sm">AI/ML</span>
-              </div>
-            </motion.div>
           </motion.div>
         </div>
       </div>
