@@ -10,3 +10,18 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## HackWithShery
+
+[Live Demo](https://hack-with-shery.vercel.app/) | [GitHub Repository](https://github.com/Priyanshu1283/HackWithShery)
+
+A modern web application built with **React.js** and styled using **Tailwind CSS**. HackWithShery showcases interactive UI components, smooth animations, and responsive design. **Axios** is used for API requests, demonstrating best practices in frontend development.
+
+**Tech Stack:**
+- React.js  
+- Tailwind CSS  
+- Axios
+
+---
+
+> Explore the live project here: [https://hack-with-shery.vercel.app/](https://hack-with-shery.vercel.app/)
