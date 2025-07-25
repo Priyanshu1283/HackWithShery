@@ -20,8 +20,8 @@ A modern web application built with **React.js** and styled using **Tailwind CSS
 **Tech Stack:**
 - React.js  
 - Tailwind CSS  
-- Axios
-
+- GSAP
+- Animation
 ---
 
 > Explore the live project here: [https://hack-with-shery.vercel.app/](https://hack-with-shery.vercel.app/)
