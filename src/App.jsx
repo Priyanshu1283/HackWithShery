@@ -5,13 +5,14 @@ import AnimatedLanding from './components/AnimatedLanding';
 import AnimatedCursor from './components/AnimatedCursor';
 import Home from './pages/Home';
 import About from './pages/About';
-import Services from './pages/Services';
+import Services from './pages/Service';
 import Contact from './pages/Contact';
 import Companies from './pages/Companies';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Footer from './components/Footer';
 import './App.css';
+import Service from './pages/Service';
 
 function App() {
   const [showLanding, setShowLanding] = useState(true);
@@ -33,7 +34,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/services" element={<Services />} />
+                <Route path="/services" element={<Service />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/companies" element={<Companies />} />
                 <Route path="/login" element={<Login />} />

@@ -6,21 +6,21 @@ const aboutCards = [
     key: 'about',
     title: 'About',
     img1: '/iman-back.webp',
-    img2: '/child_2.webp',
+    img2: '/abt.webp',
     content: `HackWithShery is a digital agency founded to bridge the gap between technology and user experience. Our mission is to empower businesses with innovative digital solutions.`
   },
   {
     key: 'early-life',
     title: 'Early Life',
     img1: '/child_1.webp',
-    img2: '/Nepal_0003_Generative-Fill.webp',
+    img2: '/child_2.webp',
     content: `Iman was born in Dagestan, Russia, and moved to London at age 4. Raised in a modest environment, he faced challenges related to family issues, financial hardship, and limited access to traditional education.`
   },
   {
     key: 'school-nepal',
     title: 'School in Nepal',
     img1: '/Nepal_0002_Generative-Fill-6.webp',
-    img2: '/web_0018_Generative-Fill-9-p-2000.webp',
+    img2: '/nepal2.webp',
     content: `Iman attended school in Nepal, where he developed a passion for learning and self-improvement, overcoming obstacles and embracing new cultures.`
   },
   {
@@ -33,8 +33,8 @@ const aboutCards = [
   {
     key: 'meals-sa',
     title: 'Meals in South Africa',
-    img1: '/web_0022_Generative-Fill-p-2000.webp',
-    img2: '/apple-touch-icon.png',
+    img1: '/meels.jpg',
+    img2: '/meels2.jpg',
     content: `During his travels in South Africa, Iman experienced diverse cuisines and cultures, which inspired him to bring global perspectives to his work.`
   },
 ];

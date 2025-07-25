@@ -3,42 +3,44 @@ import { motion, AnimatePresence } from 'framer-motion';
 import CompanyCard from '../components/CompanyCard';
 
 const companies = [
+   {
+    name: 'Big Day',
+    logo: '/logos/big_day.png',
+    description: 'Big Day is a community-driven initiative focused on networking, events, and business development.',
+    link: 'https://big-day.com/'
+  },
+    {
+    name: 'Flozy',
+    logo: '/logos/Flozy-Logo-Icon.webp',
+    description: 'Flozy delivers creative solutions for digital branding, design, and user experience.',
+    link: 'https://www.flozy.com/'
+  },
   {
     name: 'IGA Media',
-    logo: '/logos/iga-simple-p-800.webp',
+    logo: '/logos/iga.png',
     description: 'IGA Media is a leading digital marketing agency specializing in innovative strategies and measurable results for global brands.',
-    link: 'https://igamedia.com'
+    link: 'https://iag-media.com/'
   },
   {
     name: 'Grow Your Agency',
     logo: '/logos/Sphere-Logo.webp',
     description: 'Grow Your Agency empowers entrepreneurs and agencies with the tools, training, and support to scale their businesses.',
-    link: 'https://growyouragency.com'
+    link: 'https://growyouragency.com/'
   },
   {
     name: 'Gadzhi',
-    logo: '/logos/education.webp',
+    logo: '/logos/gadzhi_1.png',
     description: 'Gadzhi is a personal brand focused on business education, mindset, and high-performance coaching.',
-    link: 'https://www.imangadzhi.com'
+    link: 'https://www.hillseyewear.com/'
   },
-  {
-    name: 'Flozy',
-    logo: '/logos/Flozy-Logo-Icon.webp',
-    description: 'Flozy delivers creative solutions for digital branding, design, and user experience.',
-    link: null
-  },
+
   {
     name: 'Educate',
     logo: '/logos/education.webp',
     description: 'Educate is an online learning platform offering courses and resources for personal and professional growth.',
-    link: null
-  },
-  {
-    name: 'Big Day',
-    logo: '/logos/Sphere-Logo.webp',
-    description: 'Big Day is a community-driven initiative focused on networking, events, and business development.',
-    link: 'https://big-day.com'
+    link: 'https://educate.io/hiring/vlog-editor'
   }
+ 
 ];
 
 const Companies = () => {
